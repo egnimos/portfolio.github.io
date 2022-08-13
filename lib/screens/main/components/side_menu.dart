@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../../constants.dart';
 // ignore: avoid_web_libraries_in_flutter
@@ -46,7 +47,13 @@ class SideMenu extends StatelessWidget {
                     const Divider(),
                     const SizedBox(height: defaultPadding / 2),
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () async {
+                        await launchUrl(
+                          Uri.parse(
+                              "https://drive.google.com/file/d/1D_iPpRjKcU2fgDssdKiLYYDZ7e7kh1hx/view"),
+                          mode: LaunchMode.platformDefault,
+                        );
+                      },
                       child: FittedBox(
                         child: Row(
                           children: [
@@ -89,10 +96,6 @@ class SideMenu extends StatelessWidget {
                             },
                             icon: SvgPicture.asset("assets/icons/github.svg"),
                           ),
-                          // IconButton(
-                          //   onPressed: () {},
-                          //   icon: SvgPicture.asset("assets/icons/twitter.svg"),
-                          // ),
                           const Spacer(),
                         ],
                       ),

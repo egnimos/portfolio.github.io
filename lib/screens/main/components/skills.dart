@@ -32,21 +32,21 @@ class Skills extends StatelessWidget {
             // SizedBox(width: defaultPadding),
             // Expanded(
             //   child: AnimatedCircularProgressIndicator(
-            //     percentage: 0.72,
-            //     label: "Golang",
+            //     percentage: 0.5,
+            //     label: "Docker-Swarm",
             //   ),
             // ),
             SizedBox(width: defaultPadding),
             Expanded(
               child: AnimatedCircularProgressIndicator(
-                percentage: 0.65,
+                percentage: 0.85,
                 label: "Firebase",
               ),
             ),
             SizedBox(width: defaultPadding),
             Expanded(
               child: AnimatedCircularProgressIndicator(
-                percentage: 0.5,
+                percentage: 0.6,
                 label: "Mysql",
               ),
             ),
@@ -54,7 +54,7 @@ class Skills extends StatelessWidget {
             // Expanded(
             //   child: AnimatedCircularProgressIndicator(
             //     percentage: 0.5,
-            //     label: "Docker",
+            //     label: "Digital Ocean",
             //   ),
             // ),
           ],

@@ -38,10 +38,50 @@ List<Project> demo_projects = [
     description:
         "anime scrapper provides an API's to stream the anime, it uses Chromedp (Chrome Dev Protocols) Package, Golang & gingonic to create an API's",
     link: "https://github.com/egnimos/anime-scrapper",
-  )
+  ),
+
+  //sherkhan ril
+  Project(
+    title: "Sherkhan Ril",
+    description:
+        "Sherkhan RIL is a safe and convenient trading platform with different market assets. Sign up and get a demo account. It’s easy, unique, and secure. Its provide smart and friendly interface, allows you to trade from your mobile device anytime and anywhere.",
+    link:
+        "https://play.google.com/store/apps/details?id=com.ril.sherkhan&hl=en&gl=US",
+  ),
+
+  //frizzy app
+  Project(
+    title: "Frizzy",
+    description:
+        "Frizzy is a safe and convenient chat based tracking application.",
+    link: "",
+  ),
+
+  //big-buddy
+  Project(
+    title: "Big Buddy",
+    description:
+        "Big Buddy is a handyman based service provider application with admin pannel provided",
+    link: "",
+  ),
+
+  //dawa doctor
+  Project(
+    title: "Dawa Doctor",
+    description:
+        "Dawa Doctor is a medicine based service provider application similar as 1mg",
+    link: "",
+  ),
+
+  //gaadiwala
+  Project(
+    title: "Gaadiwala",
+    description:
+        "Gaadiwala is a cab service provider application similar as Uber or Ola",
+    link: "",
+  ),
 
   //shhopa (small projects)
-
 
   //mealify (small projects)
 ];

@@ -38,9 +38,10 @@ class MyInfo extends StatelessWidget {
                 final Uri emailLaunchUri = Uri(
                   scheme: 'mailto',
                   path: 'niteeshdubey97@gmail.com',
+                  query: "Hey!!",
                 );
 
-                await launch(emailLaunchUri.toString());
+                await launchUrl(emailLaunchUri);
               },
               child: MouseRegion(
                 cursor: SystemMouseCursors.click,

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 import '../../../components/animated_progress_indicator.dart';
 import '../../../constants.dart';
 
@@ -39,11 +38,15 @@ class Coding extends StatelessWidget {
           label: "CSS",
         ),
         const AnimatedLinearProgressIndicator(
-          percentage: 0.58,
+          percentage: 0.68,
           label: "Golang",
         ),
         const AnimatedLinearProgressIndicator(
-          percentage: 0.5,
+          percentage: 0.7,
+          label: "Docker",
+        ),
+        const AnimatedLinearProgressIndicator(
+          percentage: 0.7,
           label: "Git",
         ),
       ],

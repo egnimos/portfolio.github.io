@@ -17,7 +17,7 @@ class HomeBanner extends StatelessWidget {
         fit: StackFit.expand,
         children: [
           Image.asset(
-            "assets/images/bg.jpeg",
+            "assets/images/bg.gif",
             fit: BoxFit.cover,
           ),
           Container(color: darkColor.withOpacity(0.66)),
@@ -137,7 +137,7 @@ class FlutterCodedText extends StatelessWidget {
         text: "<",
         children: [
           TextSpan(
-            text: "flutter",
+            text: "Tech",
             style: TextStyle(color: primaryColor),
           ),
           TextSpan(text: ">"),
